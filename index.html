@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A.Carousel - A simple Bootstrap carousel</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--CDNs-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script src='https://code.jquery.com/jquery-1.11.2.min.js'></script>
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<!--ACarousel include-->
+<link rel="stylesheet" href="acarousel.css">
+<script src="acarousel.js"></script>
+</head>
+
+<body>
+	<div id="header">
+		<h1>A.Carousel</h1>
+		<p>A simple Bootstrap carousel with touch screen swipe ability.</p>
+		<a href="https://github.com/wjpdesigner/acarousel" class="btn">Download on GitHub</a>
+	</div>
+	
+	<!--START myCarousel"-->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false" data-wrap="true" data-pause="hover">
+		
+		<!-- Dots -->
+  		<ol class="carousel-indicators">
+    		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    		<li data-target="#myCarousel" data-slide-to="1"></li>
+    		<li data-target="#myCarousel" data-slide-to="2"></li>
+    		<li data-target="#myCarousel" data-slide-to="3"></li>
+  		</ol>
+  		
+  		<!--Slides-->
+  		<div class="carousel-inner">
+  			<div class="item active">
+  				<img src="slide1.jpg">
+  				<!--Add your caption here-->
+  				<!--div class="carousel-caption">
+    				<h3>Title</h3>
+    				<p>Description</p>
+  				</div-->
+			</div>
+			<div class="item">
+  				<img src="slide2.jpg">
+			</div>
+			<div class="item">
+  				<img src="slide3.jpg">
+			</div>
+			<div class="item">
+  				<img src="slide4.jpg">
+  				<div class="carousel-caption">
+    				<h3>Jane’s Carousel</h3>
+    				<p>Built in 1922 by the Philadelphia Toboggan Company, the carousel was lovingly restored and donated to the park by Jane and David Walentas. Located in the Empire Fulton Ferry section of Brooklyn Bridge Park, Jane’s Carousel is housed in a gorgeous glass pavilion, designed by Pritzker-prize winning architect Jean Nouvel.</p>
+  				</div>
+			</div>
+		</div>
+		
+		<!-- Arrows -->
+  		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    		<i class="fa fa-angle-left" style="left:50%;"></i>
+  		</a>
+  		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    		<i class="fa fa-angle-right"style="right:50%;"></i>
+  		</a>
+  		
+	</div><!--END myCarousel"-->
+	<p class="small"><br>Jane’s Carousel. More info can be found at <a href="http://janescarousel.com" target="blank">janescarousel.com</a>.</p>
+	<div id="footer">
+		<p>Used by ...</p>
+		<a href="http://wjpdesigner.com" target="_blank"><img src="logo.png" width="60">
+	</div>
+	
+</body>
+</html>
