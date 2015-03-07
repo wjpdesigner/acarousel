@@ -1,4 +1,4 @@
-# acarousel
+# A.Carousel
 A simple Bootstrap carousel with touch screen swipe ability.
 
-A.Carousel
+Checkout the demo
