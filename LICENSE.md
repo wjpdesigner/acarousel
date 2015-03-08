@@ -1,4 +1,4 @@
-# Copyright and License:
+# Copyright and License
 The MIT License (MIT)
 
 Copyright (c) 2015 wjpdesigner.com
