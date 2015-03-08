@@ -45,7 +45,7 @@ It is not necessary to include dots and arrows, but the very first ".item" the "
   	<!--Slides-->
   	<div class="carousel-inner">
   		<div class="item active">
-  			<img src="slide1.jpg">
+  			<img src="img/slide1.jpg">
   			<!--Add your caption here-->
   			<!--div class="carousel-caption">
     			<h3>Title</h3>
@@ -53,13 +53,13 @@ It is not necessary to include dots and arrows, but the very first ".item" the "
   			</div-->
 		</div>
 		<div class="item">
-  			<img src="slide2.jpg">
+  			<img src="img/slide2.jpg">
 		</div>
 		<div class="item">
-  			<img src="slide3.jpg">
+  			<img src="img/slide3.jpg">
 		</div>
 		<div class="item">
-  			<img src="slide4.jpg">
+  			<img src="img/slide4.jpg">
   			<div class="carousel-caption">
     			<h3>Jane’s Carousel</h3>
     			<p>Built in 1922 by the Philadelphia Toboggan Company, the carousel was lovingly restored and donated to the park by Jane and David Walentas. Located in the Empire Fulton Ferry section of Brooklyn Bridge Park, Jane’s Carousel is housed in a gorgeous glass pavilion, designed by Pritzker-prize winning architect Jean Nouvel.</p>
