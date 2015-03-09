@@ -1,5 +1,89 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
 
+/*--Start Carousel Container--*/
+#myCarousel {
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1200px; /*can be 100%*/
+}
+
+#myCarousel img {
+	width: 100%;
+}
+
+#myCarousel a:link, #myCarousel a:visited{
+	color: black;
+	text-decoration: none;
+	border: none;
+}
+
+.ui-loader {
+	display: none;
+}
+
+/*--Carousel Arrows--*/
+.carousel-control {
+	width: 3%;
+	text-shadow: none;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+}
+
+.fa-angle-left, .fa-angle-right {
+	font-size: 3em;
+	position: absolute;
+	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+/*--Carousel Dots--*/
+.carousel-indicators {
+	bottom: 0px;
+}
+
+.carousel-indicators .active, .carousel-indicators li:hover {
+	background-color: black;
+	opacity: 1;
+	border: none;
+	width: 10px;
+	height: 10px;
+	margin: auto 5px;
+}
+
+.carousel-indicators li {
+	background-color: black;
+	opacity: .5;
+	border: none;
+	width: 10px;
+	height: 10px;
+	margin: auto 5px;
+}
+
+/*--Carousel Caption--*/
+.carousel-caption {
+	text-shadow: none;
+	font-size: 12px;
+  	letter-spacing: 1px;
+  	padding: 30px;
+  	text-align: left;
+  	color: #6D797F;
+  	width: 100%;
+  	background-color: rgba(255,255,255,0.8);
+  	left: 0;
+  	top: 0;
+  	bottom: 0;
+}
+
+.carousel-caption h3 {
+	font-weight: bold;
+	margin-top: 0;
+}
+
+/*--You can remove everything after this comment--*/
 body {
 	font-family: 'Open Sans', sans-serif;
     background: #fff;
@@ -35,7 +119,6 @@ p {
 a:link, a:visited {
 	text-decoration: none;
 	color: #d64e4e;
-	border-bottom: 1px solid currentColor;
 	transition: all .3s ease;
 }
 
@@ -82,89 +165,6 @@ a.btn:link, a.btn:visited, a.btn:hover{
 	font-size: 14px;
 	padding-top: 60px;
 	padding-bottom: 20px;
-}
-
-/*--Container--*/
-#myCarousel {
-	margin: 0 auto;
-	padding: 0;
-	max-width: 1200px; /*can be 100%*/
-}
-
-#myCarousel img {
-	width: 100%;
-}
-
-#myCarousel a:link, #myCarousel a:visited{
-	color: black;
-	text-decoration: none;
-	border: none;
-}
-
-/*--Arrows--*/
-.carousel-control {
-	width: 3%;
-	text-shadow: none;
-}
-
-.carousel-control.left, .carousel-control.right {
-	background-image: none;
-}
-
-.fa-angle-left, .fa-angle-right {
-	font-size: 3em;
-	position: absolute;
-	top: 50%;
-  	-webkit-transform: translateY(-50%);
-  	-ms-transform: translateY(-50%);
-  	transform: translateY(-50%);
-}
-
-/*--Dots--*/
-.carousel-indicators {
-	bottom: 0px;
-}
-
-.carousel-indicators .active, .carousel-indicators li:hover {
-	background-color: black;
-	opacity: 1;
-	border: none;
-	width: 10px;
-	height: 10px;
-	margin: auto 5px;
-}
-
-.carousel-indicators li {
-	background-color: black;
-	opacity: .5;
-	border: none;
-	width: 10px;
-	height: 10px;
-	margin: auto 5px;
-}
-
-/*--Caption--*/
-.carousel-caption {
-	text-shadow: none;
-	font-size: 12px;
-  	letter-spacing: 1px;
-  	padding: 30px;
-  	text-align: left;
-  	color: #6D797F;
-  	width: 100%;
-  	background-color: rgba(255,255,255,0.8);
-  	left: 0;
-  	top: 0;
-  	bottom: 0;
-}
-
-.carousel-caption h3 {
-	font-weight: bold;
-	margin-top: 0;
-}
-
-.ui-loader {
-	display: none;
 }
 
 /*--Media Query--*/
