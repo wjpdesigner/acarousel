@@ -29,6 +29,7 @@
 
 .carousel-control.left, .carousel-control.right {
 	background-image: none;
+	z-index: 11;
 }
 
 .fa-angle-left, .fa-angle-right {
